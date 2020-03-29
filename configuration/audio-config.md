@@ -4,6 +4,10 @@ The Raspberry Pi has two audio output modes: HDMI and headphone jack. You can sw
 
 If your HDMI monitor or TV has built-in speakers, the audio can be played over the HDMI cable, but you can switch it to a set of headphones or other speakers plugged into the headphone jack. If your display claims to have speakers, sound is output via HDMI by default; if not, it is output via the headphone jack. This may not be the desired output setup, or the auto-detection is inaccurate, in which case you can manually switch the output.
 
+## Know your hardware
+
+Some Pi have many HDMI ports, but not all support audio. [For example, on Rasberry Pi 4 Model B, HDMI0 supports audio, but not HDMI1.](https://www.raspberrypi.org/forums/viewtopic.php?p=1550253) 
+
 ## Changing the audio output
 
 There are three ways of setting the audio output.
